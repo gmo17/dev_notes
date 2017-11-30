@@ -1,0 +1,229 @@
+/* Framework version for the generated CSS is 7.8. */
+/* line 7, ../sass/style.scss */
+.myVar {
+  color: #008000;
+  font-size: 20px;
+}
+
+/* line 13, ../sass/style.scss */
+h3.tutorialspoint {
+  color: #3bbfce;
+}
+
+/* line 20, ../sass/style.scss */
+.container h1 {
+  font-size: 25px;
+  color: #E45456;
+}
+/* line 24, ../sass/style.scss */
+.container p {
+  font-size: 25px;
+}
+/* line 29, ../sass/style.scss */
+.container .box h1 {
+  font-size: 25px;
+  color: #3bbfce;
+}
+/* line 33, ../sass/style.scss */
+.container .box p {
+  font-size: 25px;
+  color: #3C7949;
+}
+
+/* line 40, ../sass/style.scss */
+.line {
+  font-family: Lucida Sans Unicode;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+/* line 50, ../sass/style.scss */
+a {
+  font-size: 20px;
+}
+/* line 52, ../sass/style.scss */
+a:hover {
+  background-color: #ffa500;
+}
+
+/* line 57, ../sass/style.scss */
+.frst_para, .sec_para {
+  color: #008000;
+}
+
+/* line 60, ../sass/style.scss */
+.sec_para {
+  font-size: 20px;
+}
+
+/* line 66, ../sass/style.scss */
+#aryth {
+  font-size: 37.5px;
+  color: #ff66ff;
+}
+
+/* line 70, ../sass/style.scss */
+.bool {
+  color: #ffa500;
+}
+
+/* line 77, ../sass/style.scss */
+#funct {
+  color: #bf4040;
+}
+
+/* line 82, ../sass/style.scss */
+#interp_bef:before {
+  content: " I have 10 books on SASS, ";
+}
+
+/* line 85, ../sass/style.scss */
+#interp_aft:after {
+  content: " I have 10 books on SASS!";
+}
+
+/* line 91, ../sass/style.scss */
+#def:after {
+  content: " Sass was Developed by NW and CE";
+}
+
+/* line 96, ../sass/style.scss */
+#md {
+  width: 900px;
+}
+@media screen and (orientation: portrait) {
+  /* line 96, ../sass/style.scss */
+  #md {
+    width: 500px;
+    margin-left: 0;
+    background-color: #77C1EF;
+  }
+}
+
+/* line 106, ../sass/style.scss */
+#myIf {
+  color: #ffa500;
+  border: 1px dotted;
+}
+
+/* line 114, ../sass/style.scss */
+#md {
+  color: #008000;
+}
+
+/* line 127, ../sass/style.scss */
+.p1 {
+  padding-left: 10px;
+}
+
+/* line 127, ../sass/style.scss */
+.p2 {
+  padding-left: 20px;
+}
+
+/* line 127, ../sass/style.scss */
+.p3 {
+  padding-left: 30px;
+}
+
+/* line 127, ../sass/style.scss */
+.p4 {
+  padding-left: 40px;
+}
+
+/* line 135, ../sass/style.scss */
+.p_red {
+  background-color: red;
+  width: 30%;
+}
+
+/* line 135, ../sass/style.scss */
+.p_green {
+  background-color: green;
+  width: 30%;
+}
+
+/* line 135, ../sass/style.scss */
+.p_yellow {
+  background-color: yellow;
+  width: 30%;
+}
+
+/* line 135, ../sass/style.scss */
+.p_orange {
+  background-color: orange;
+  width: 30%;
+}
+
+/* line 143, ../sass/style.scss */
+.pblack {
+  background-color: black;
+  border: dotted;
+  width: 30%;
+}
+
+/* line 143, ../sass/style.scss */
+.pred {
+  background-color: red;
+  border: solid;
+  width: 30%;
+}
+
+/* line 143, ../sass/style.scss */
+.pgreen {
+  background-color: green;
+  border: double;
+  width: 30%;
+}
+
+/* line 151, ../sass/style.scss */
+h1 {
+  color: #ff0000;
+}
+
+/* line 151, ../sass/style.scss */
+h2 {
+  color: #008000;
+}
+
+/* line 151, ../sass/style.scss */
+h3 {
+  color: #0000ff;
+}
+
+/* line 159, ../sass/style.scss */
+.paddding-50 {
+  padding-left: 50px;
+}
+
+/* line 159, ../sass/style.scss */
+.paddding-40 {
+  padding-left: 40px;
+}
+
+/* line 159, ../sass/style.scss */
+.paddding-30 {
+  padding-left: 30px;
+}
+
+/* line 159, ../sass/style.scss */
+.paddding-20 {
+  padding-left: 20px;
+}
+
+/* line 159, ../sass/style.scss */
+.paddding-10 {
+  padding-left: 10px;
+}
+
+/* line 9, ../sass/_mixins.scss */
+.cont {
+  background-color: #77C1EF;
+  color: #ffffff;
+}
+
+/* line 12, ../sass/_mixins.scss */
+h3 {
+  color: #ffffff;
+}

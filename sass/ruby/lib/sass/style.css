@@ -1,0 +1,146 @@
+/* Framework version for the generated CSS is 7.8. */
+.myVar {
+  color: #008000;
+  font-size: 20px; }
+
+h3.tutorialspoint {
+  color: #3bbfce; }
+
+.container h1 {
+  font-size: 25px;
+  color: #E45456; }
+.container p {
+  font-size: 25px; }
+.container .box h1 {
+  font-size: 25px;
+  color: #3bbfce; }
+.container .box p {
+  font-size: 25px;
+  color: #3C7949; }
+
+.line {
+  font-family: Lucida Sans Unicode;
+  font-size: 20px;
+  font-weight: bold;
+  font-variant: small-caps; }
+
+a {
+  font-size: 20px; }
+  a:hover {
+    background-color: #ffa500; }
+
+.frst_para, .sec_para {
+  color: #008000; }
+
+.sec_para {
+  font-size: 20px; }
+
+#aryth {
+  font-size: 37.5px;
+  color: #ff66ff; }
+
+.bool {
+  color: #ffa500; }
+
+#funct {
+  color: #bf4040; }
+
+#interp_bef:before {
+  content: " I have 10 books on SASS, "; }
+
+#interp_aft:after {
+  content: " I have 10 books on SASS!"; }
+
+#def:after {
+  content: " Sass was Developed by NW and CE"; }
+
+#md {
+  width: 900px; }
+  @media screen and (orientation: portrait) {
+    #md {
+      width: 500px;
+      margin-left: 0;
+      background-color: #77C1EF; } }
+
+#myIf {
+  color: #ffa500;
+  border: 1px dotted; }
+
+#md {
+  color: #008000; }
+
+.p1 {
+  padding-left: 10px; }
+
+.p2 {
+  padding-left: 20px; }
+
+.p3 {
+  padding-left: 30px; }
+
+.p4 {
+  padding-left: 40px; }
+
+.p_red {
+  background-color: red;
+  width: 30%; }
+
+.p_green {
+  background-color: green;
+  width: 30%; }
+
+.p_yellow {
+  background-color: yellow;
+  width: 30%; }
+
+.p_orange {
+  background-color: orange;
+  width: 30%; }
+
+.pblack {
+  background-color: black;
+  border: dotted;
+  width: 30%; }
+
+.pred {
+  background-color: red;
+  border: solid;
+  width: 30%; }
+
+.pgreen {
+  background-color: green;
+  border: double;
+  width: 30%; }
+
+h1 {
+  color: #ff0000; }
+
+h2 {
+  color: #008000; }
+
+h3 {
+  color: #0000ff; }
+
+.paddding-50 {
+  padding-left: 50px; }
+
+.paddding-40 {
+  padding-left: 40px; }
+
+.paddding-30 {
+  padding-left: 30px; }
+
+.paddding-20 {
+  padding-left: 20px; }
+
+.paddding-10 {
+  padding-left: 10px; }
+
+.cont {
+  background-color: #77C1EF;
+  color: #ffffff; }
+
+h3 {
+  color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,164 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+/* Framework version for the generated CSS is #{$version}. */
+//VARIBALES
+.myVar{
+   color:$txtcolor;
+   font-size:$fontSize;
+}
+
+//DATA TYPE STRING
+h3.#{$name} {
+  color: $primary-color;
+}
+
+
+//NESTING
+.container{
+  h1{
+       font-size: 25px;
+       color:#E45456;
+  }
+  p{
+    font-size: 25px;
+  }
+
+  .box{
+    h1{
+      font-size: 25px;
+      color: $primary-color;
+    }
+    p{
+      font-size: 25px;
+      color:#3C7949;
+    }
+  }
+}
+
+.line {
+  font: {
+    family: Lucida Sans Unicode;
+    size:20px;
+    weight: bold;
+    variant: small-caps;
+  }
+}
+
+//PARENT SELECTOR
+a{
+font-size: 20px;
+    &:hover { background-color: #ffa500; }
+}
+
+
+//PLACEHOLDER SELECTORS
+.frst_para {
+   color: #008000;
+}
+.sec_para {
+   @extend .frst_para;
+   font-size:20px;
+}
+
+//ARYTHMETICS
+#aryth {
+   font-size: $font_size * 1.5;
+   color: $color1 + $color2;
+}
+.bool {
+  @if ($age > 10 and $age < 45){
+    color: #ffa500;
+  }
+}
+
+//FUNCTIONS
+#funct{
+color: hsl($hue: 0, $saturation: 50%, $lightness: 50%);
+}
+
+//INTERPOLATION
+#interp_bef:before {
+  content: " I have #{8 + 2} books on SASS, ";
+}
+#interp_aft:after {
+  content: " I have #{8 + 2} books on SASS!";
+}
+
+//DEFAULT VARIABLE
+$myval1: " Sass was Developed by NW and CE" !default;
+#def:after {
+  content: $myval1;
+}
+
+//MEDIA QUERY
+#md{
+  width: 900px;
+  @media screen and (orientation: portrait){
+  width:500px;
+  margin-left: 0;
+  background-color: #77C1EF;
+  }
+}
+
+//CONTITIONAL STATEMENTS AND DIRECTIVES
+#myIf{
+   color: if( 4 * 4 == 16 , #ffa500 , #ff0000);
+   @if 10 + 10 == 20   { border: 1px dotted;   }
+   @if 7 < 2     { border: 2px solid;  }
+   @if null    { border: 3px double; }
+}
+
+
+#md{
+  @if $type == benz {
+    color: #ff0000;
+  } @else if $type == peugeot {
+    color: #0000ff;
+  } @else if $type == audi {
+    color: #008000;
+  } @else {
+    color: #000000;
+  }
+}
+
+@for $i from 1 through 4 {
+  .p#{$i} { padding-left : $i * 10px; }
+}
+
+// @for $i from 2 to 4 {
+//   div#{$i} { padding-left : $i * 10px; }
+// }
+
+@each $color in red, green, yellow, orange {
+  .p_#{$color} {
+    background-color: #{$color};
+    width: 30%;
+  }
+}
+
+//EACH WITH MULTIPLE RULES (LIST)
+@each $color, $border in (black, dotted), (red, solid), (green, double){
+  .p#{$color} {
+    background-color : $color;
+    border: $border;
+    width: 30%;
+  }
+}
+
+//EACH WITH MULTIPLE RULES (MAP)
+@each $header, $color in (h1: #ff0000, h2: #008000, h3: #0000ff) { #{$header} {
+    color: $color;
+  }
+}
+
+//WHILE
+$i: 50;
+@while $i > 0 {
+  .paddding-#{$i} { padding-left: 1px * $i; }
+$i: $i - 10; }
+
+//MIXINS
+// @include style;
+@include style;
